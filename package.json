@@ -1,0 +1,25 @@
+{
+  "name": "brauth",
+  "version": "0.0.0",
+  "description": "Bold Rocket Authentication module",
+  "main": "index.js",
+  "scripts": {
+    "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atheohar/brauth.git"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "brauth"
+  ],
+  "author": "Antonis Theocharides",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "8a3574d1d1792c533ae266dbf42d50070d449744",
+  "bugs": {
+    "url": "https://github.com/atheohar/brauth/issues"
+  }
+}
