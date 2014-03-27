@@ -1,6 +1,5 @@
 var Sessions = require('./sessions').Sessions,
     BrAuthClient = require('node-rest-client').Client,
-    config = require('./config'),
     FormData = require('form-data'),
     request = require('request'),
     fs = require('fs');
