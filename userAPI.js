@@ -6,7 +6,7 @@ function UserAPI(db, applicationId, applicationCode, brAuthUrl) {
 
     var sessions = new Sessions(db, applicationId, applicationCode);
 
-    this.passwordReset = function(username, email, firstName, lastName, callback){
+    this.PasswordReset = function(username, email, firstName, lastName, callback){
         var brAuthClient = new BrAuthClient();
 
         var args = {
