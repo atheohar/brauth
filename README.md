@@ -279,8 +279,8 @@ __Example__
 ---------------------------------------
 
 <a name="PasswordChangeWithAuthenticationCode" />
-### UserAPI.PasswordChangeWithAuthenticationCode(username, email, firstName, lastName,
-            newPassword, authenticationCode, callback)
+### UserAPI.PasswordChangeWithAuthenticationCode(username, email, firstName, lastName, 
+newPassword, authenticationCode, callback)
 
 Request a password reset. This will send a mail to the user providing an authentication code.
 
@@ -331,7 +331,7 @@ __Arguments__
 * callback(err, data) - A callback which is called after the user profile is retrieved or an error 
 has occurred. The returned data contains the user profile.
 An example of all the fields:
-```js
+
 {
   "firstName":"Antonis",
   "lastName":"Theocharides",
@@ -348,8 +348,6 @@ An example of all the fields:
     "postCode":"abc 123"
   }
 }
-
-```
 
 __Example__
 
@@ -371,9 +369,7 @@ __Example__
 ---------------------------------------
 
 <a name="UserProfileUpdate" />
-### UserProfileAPI.UserProfileUpdate(sessionId, firstName, lastName, phoneNumber, dateOfBirth,
-            placeOfBirth, maritalStatus, gender, addressLine1, addressLine2,
-            county, town, postCode, callback)
+### UserProfileAPI.UserProfileUpdate(sessionId, firstName, lastName, phoneNumber, dateOfBirth, placeOfBirth, maritalStatus, gender, addressLine1, addressLine2, county, town, postCode, callback)
 
 Update the use profile. All empty fields are ignored.
 
@@ -395,7 +391,7 @@ __Arguments__
 * callback(err, data) - A callback which is called after the user profile is retrieved or an error 
 has occurred. The returned data contains the user profile.
 An example of all the fields:
-```js
+
 {
   "firstName":"Antonis",
   "lastName":"Theocharides",
@@ -412,8 +408,6 @@ An example of all the fields:
     "postCode":"abc 123"
   }
 }
-
-```
 
 __Example__
 
